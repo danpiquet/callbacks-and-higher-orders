@@ -116,7 +116,7 @@ const uniq = (arr, cb) => {
   let uniqueArray = new Set(arr).values()
   cb(uniqueArray)
 }
-console.log(new Set(names).values())
+//console.log(new Set(names).values())
 /*
   Invoke the uniq function, passing in the names array from above and a callback function.
   The callback function should take in one parameter called uniqArr.
@@ -126,7 +126,7 @@ console.log(new Set(names).values())
 
 // CODE HERE
 uniq(names,result =>{
-  console.log(`The new names array with all the duplicate items removed is: `, [...result].join(', '))
+  console.log(`The new names array with all the duplicate items removed is:`, [...result].join(', '))
 })
 
 
